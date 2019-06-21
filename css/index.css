@@ -1,0 +1,250 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width:100%;
+    height:100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+/*音乐*/
+.music{
+  width:1rem;
+  height:1rem;
+  background: url(../images/yinyue.png) center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  left:0.2rem;
+  top:0.2rem;
+  z-index: 999;
+  border-radius: 50%;
+  animation: music 2s linear infinite;
+}
+@keyframes music{
+  100% { transform: rotate(360deg) }
+}
+/* 第一页 */
+#page1>img{
+    position:absolute;
+}
+#page1{
+ 
+   background:url("../images/page1.png")center center no-repeat;
+   position:relative;
+}
+.geren{
+  width:5rem ;
+  height:3rem;
+  left: 1.5rem;
+  top: 5rem;
+}
+
+/* 第二页 */
+#page2{
+    position:relative;
+}
+#page2>img{
+    position:absolute;
+}
+#page2{
+    background:url("../images/page.png") center center no-repeat;
+    background-size:cover;
+}
+li{
+  text-decoration: none;
+}
+.jiben{
+  position:absolute;
+  left: 2.5rem;
+  top: 3rem;
+  font-size: 0.35rem;
+  color:#640505;
+}
+.ziji{
+  width: 1.8rem;
+  height: 2.5rem;
+  left: 0.5rem;
+  top:3rem;
+}
+.book{
+    width:2.08rem;
+    height:1.48rem;
+    left:0.8rem;
+    top:1.3rem;
+}
+.logo{
+  width: 2rem;
+  height:2rem;
+  left:4rem;
+  top: 9rem;
+}
+.math{
+    width:1.6rem;
+    height:1rem;
+    right:1.5rem;
+    top:2.3rem;
+}
+.book1{
+    width:1.33rem;
+    height:1rem;
+    left:0.8rem;
+    bottom:0.7rem;
+}
+.book2{
+    width:1.75rem;
+    height:1.19rem;
+    left:50%;
+    margin-left:-0.875rem;
+    bottom:0.7rem;
+}
+.book3{
+    width:1.48rem;
+    height:0.85rem;
+    right:0.8rem;
+    bottom:0.7rem;
+}
+/* 第三页 */
+#page3{
+  position:relative;
+  background: url("../images/page.png");
+  background-size:100% 100%;
+}
+#page3>img{
+  position: absolute;
+}
+#page3>dl{
+  position: absolute;
+  line-height:0.6rem;
+}
+dt{
+  background: #2ab5d8;
+  text-align: center;
+  color: black;
+  font-size:0.45rem; 
+  
+}
+dd{
+  font-size:0.3rem; 
+}
+
+.xinxi{
+  position:absolute;
+  left: 0.2rem;
+  top: 1rem;
+  color:#640505;
+}
+.ssrs{
+  width:100%;
+  height: 2rem;
+  bottom: 0;
+}
+/* 第四页 */
+#page4{
+  position:relative;
+  background: url("../images/page.png");
+  background-size:100% 100%;
+}
+#page4>img{
+  position: absolute;
+}
+#page4>dl{
+  position: absolute;
+  line-height:0.5rem;
+  text-indent: 2em;
+}
+#page4>dt{
+  background: #2ab5d8;
+  text-align: center;
+  color: black;
+  font-size:0.4rem; 
+}
+#page4>dd{
+  font-size:0.3rem; 
+}
+
+.jiayou{
+  width:3.2rem ;
+  height: 2rem;
+  top:6rem ;
+  right:0.8rem ;
+}
+.and{
+  width:2rem;
+  height:1.22rem;
+  left:2.3rem;
+  top:8rem;
+}
+.fendou{ 
+  width:2.5rem;
+  height:4rem;
+  left:0.2rem;
+  top:9rem;
+}
+.shige{
+  position:absolute;
+    font-size:0.32rem;
+    right: 0.8rem;
+    top:8rem;
+    line-height:0.64rem;
+  color: rgb(0, 0, 0);
+}
+/* 第五页 */
+#page5{
+  position:relative;
+  background: url("../images/page.png");
+  background-size:100% 100%;
+}
+#page5>img{
+  position: absolute;
+}
+.dream{
+  
+  width: 3rem;
+  height: 3rem;
+  top:6rem;
+  left: 2rem;
+}
+.guanshang{
+  position: absolute;
+  top: 4rem;
+  left: 1.2rem;
+  font-size: 0.8rem;
+  color: rgb(0, 195, 255);
+}
